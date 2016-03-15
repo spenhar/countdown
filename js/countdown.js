@@ -4,7 +4,7 @@ function startTime() {
     var currentDate = new Date();
 
     // Set some date in the future. In this case, June 21st Launch date.
-    var futureDate  = new Date('2016-03-18T09:00:00Z');
+    var futureDate  = new Date('2016-03-18T13:00:00');
 
     // Calculate the difference in seconds between the future and current date
     var diff = futureDate.getTime() / 1000 - currentDate.getTime() / 1000;
