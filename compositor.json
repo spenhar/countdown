@@ -1,0 +1,97 @@
+{
+  "name": "spenhar/countdown",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.19"
+  },
+  "title": "Countdown",
+  "branch": "",
+  "style": {
+    "name": "Future",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "\"Avenir Next\", Helvetica, sans-serif",
+    "heading": {
+      "fontWeight": 500,
+      "textTransform": "uppercase",
+      "letterSpacing": "0.2em"
+    },
+    "alternativeText": {
+      "textTransform": "uppercase",
+      "fontWeight": 400,
+      "letterSpacing": "0.2em",
+      "opacity": 0.75
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    },
+    "layout": {
+      "centered": true,
+      "maxWidth": 1024,
+      "bannerHeight": "80vh"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/spenhar/countdown",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/tachyons",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "countdown",
+      "subhead": "The first 72 hours are the hardest.",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "countdown: The first 72 hours are the hardest.",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "spenhar",
+          "repo": "countdown"
+        }
+      ],
+      "text": "v4.0.0-beta.7"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<p>Because the first 72 hours is the hardest.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/spenhar/countdown",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/spenhar",
+          "text": "spenhar"
+        }
+      ]
+    }
+  ]
+}
