@@ -48,17 +48,13 @@
         {
           "href": "https://github.com/spenhar/countdown",
           "text": "GitHub"
-        },
-        {
-          "href": "https://npmjs.com/package/tachyons",
-          "text": "npm"
         }
       ]
     },
     {
       "component": "header",
       "heading": "countdown",
-      "subhead": "The first 72 hours are the hardest.",
+      "subhead": "Because the first 72 hours are the hardest",
       "children": [
         {
           "component": "ui/TweetButton",
@@ -71,7 +67,7 @@
           "repo": "countdown"
         }
       ],
-      "text": "v4.0.0-beta.7"
+      "text": "v1.0.0"
     },
     {
       "component": "article",
